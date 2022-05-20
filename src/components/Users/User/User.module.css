@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    padding: 40px;
+    grid-template-areas:
+  ' photo about btn';
+    grid-template-columns: 2fr 10fr 10fr;
+
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 35px;
+    border: none;
+    cursor: pointer;
+    background-color: #c1cbbf;
+    border-radius: 10px;
+
+}
+
+.photo{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    grid-area: photo;
+    border-radius: 30px;
+}
+
+.about{
+    grid-area: about;
+    width: 400px;
+    height: 100px;
+    border: 3px solid #aba5a5;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    grid-template-columns: 3fr 3fr;
+    grid-template-areas:'fullName country '
+  ' status city ';
+    background-color: #cecbcb;
+    margin-left: 10px;
+}
+
+.fullName{
+    margin-top: 15px;
+    grid-area: fullName;
+    margin-left: 15px;
+}
+.city{
+    grid-area: city;
+}
+.country{
+    margin-top: 15px;
+    grid-area: country;
+}
+.status{
+    margin-left: 15px;
+    grid-area: status;
+}

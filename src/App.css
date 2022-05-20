@@ -1,0 +1,29 @@
+.app-wrapper{
+  margin: 0 auto;
+  display: grid;
+  width: 1230px;
+
+  grid-template-areas:'h h '
+  ' n c ';
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /*grid-gap: 10px;*/
+
+}
+.appWrapperContent{
+  grid-area: c;
+  background-image: url("./assets/images/11c585820b7e4ece5b671ed9dc1c8b03.jpeg");
+}
+
+
+
+
+
+
+
+
+
+
+
+

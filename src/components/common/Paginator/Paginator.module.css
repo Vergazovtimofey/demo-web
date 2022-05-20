@@ -1,0 +1,39 @@
+
+.selectedPage{
+    font-weight: bold;
+    padding-right: 1px;
+    padding-left: 3px;
+    cursor: pointer;
+    border: solid 1px #c1cbbf;
+    background-color: #c1cbbf;
+    border-radius: 10px;
+    margin-left: 3px;
+
+}
+
+.Page{
+    border: solid 1px #c1cbbf;
+    border-radius: 10px;
+    padding-right: 1px;
+    padding-left: 4px;
+    margin-left: 3px;
+    color:grey;
+}
+
+
+.btn{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 50px;
+    height: 30px;
+    margin-top: 35px;
+    border: none;
+    cursor: pointer;
+    background-color: #a69f9f;
+    border-radius: 10px;
+}
+
+.Paginator{
+    margin-top: 5px;
+    text-align: center;
+}

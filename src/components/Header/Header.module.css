@@ -1,0 +1,16 @@
+.header{
+    grid-area: h;
+    background-image: url("../../assets/images/2bc571092071fc5a522c3a85988bf888.jpeg");
+}
+.profileImg{
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.loginBlock{
+    float: right;
+    color: rgb(206, 203, 203);
+    text-transform: none;
+    text-decoration: none;
+}
